@@ -11,3 +11,6 @@ Takes your voice input, Performs a web search with your given query and provides
 6. run the project or build an apk
 
 For detailed instructions, please follow [this guide](https://forums.developer.huawei.com/forumPortal/en/topic/0202537426455050190)
+
+## How it works?
+You can build this project from scratch by following my article _**[Invoking search by voice with ML and Search kit](https://forums.developer.huawei.com/forumPortal/en/topic/0202515781830130081)**_
