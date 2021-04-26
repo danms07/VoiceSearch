@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoiceSearch</string>
+    <string name="speak_now">Habla ahora</string>
+    <string name="capturing_voice">Escuchando</string>
+    <string name="searching">Buscando …</string>
+    <string name="found">Esto es lo que encontré</string>
+</resources>

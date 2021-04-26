@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VoiceSearch</string>
+    <string name="speak_now">Speak Now</string>
+    <string name="capturing_voice">Capturing voice</string>
+    <string name="searching">Searching …</string>
+    <string name="found">This is what I have found</string>
+</resources>

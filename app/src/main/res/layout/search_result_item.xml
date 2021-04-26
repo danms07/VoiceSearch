@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="ResultBinding">
+        <variable
+            name="item"
+            type="com.huawei.hms.searchkit.bean.WebItem" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:elevation="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/white_rec">
+
+        <!--Log.e("Result","${item.siteName} ${item.snippet} ${item.clickUrl} ${item.title}")-->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{item.title}"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/snippet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@{item.snippet}"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title"
+
+            />
+
+        <TextView
+            android:id="@+id/site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@{item.siteName}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/snippet" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
