@@ -2,7 +2,7 @@
 ## Powered by HUAWEI Search Kit and ML Kit
 Takes your voice input, Performs a web search with your given query and provides the search results by voice output.
 
-# How to run
+## How to run
 1. Clone the project and change the applicationId under the app-level build.gradle
 2. Create a new project on [AppGallery Connect](https://developer.huawei.com/consumer/en/service/josp/agc/index.html#/) and add the new applicationId as package name
 3. From AppGallery Connect, go to **Manage APIs** and then enable Search kit and ML kit
